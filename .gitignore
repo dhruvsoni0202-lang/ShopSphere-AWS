@@ -1,0 +1,11 @@
+*.pem
+*.ppk
+.env
+.env.*
+.aws/
+credentials
+config
+Thumbs.db
+.DS_Store
+Desktop.ini
+*.swp
