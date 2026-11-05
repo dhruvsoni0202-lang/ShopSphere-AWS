@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+  <rect width="1000" height="600" fill="#f4f7fb"/>
+  <text x="500" y="45" text-anchor="middle" font-size="28" font-weight="bold" fill="#172554">ShopSphere - AWS Architecture</text>
+
+  <rect x="350" y="80" width="300" height="65" rx="12" fill="#f59e0b"/>
+  <text x="500" y="120" text-anchor="middle" font-size="20" fill="white">Internet Users</text>
+
+  <path d="M500 145 V185" stroke="#334155" stroke-width="3"/>
+  <rect x="350" y="185" width="300" height="65" rx="12" fill="#2563eb"/>
+  <text x="500" y="225" text-anchor="middle" font-size="20" fill="white">Application Load Balancer</text>
+
+  <path d="M500 250 V290 H250 V325 M500 290 H750 V325" stroke="#334155" stroke-width="3" fill="none"/>
+
+  <rect x="100" y="325" width="300" height="75" rx="12" fill="#16a34a"/>
+  <text x="250" y="370" text-anchor="middle" font-size="20" fill="white">EC2 Instances - AZ 1</text>
+
+  <rect x="600" y="325" width="300" height="75" rx="12" fill="#16a34a"/>
+  <text x="750" y="370" text-anchor="middle" font-size="20" fill="white">EC2 Instances - AZ 2</text>
+
+  <path d="M250 400 V445 H500 M750 400 V445 H500 V475" stroke="#334155" stroke-width="3" fill="none"/>
+  <rect x="350" y="475" width="300" height="65" rx="12" fill="#9333ea"/>
+  <text x="500" y="515" text-anchor="middle" font-size="20" fill="white">Amazon EFS - Shared Storage</text>
+
+  <text x="500" y="575" text-anchor="middle" font-size="14" fill="#475569">Auto Scaling Group maintains application capacity</text>
+</svg>
